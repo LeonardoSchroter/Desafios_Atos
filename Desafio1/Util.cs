@@ -53,7 +53,7 @@ namespace Desafio1
                     codigo_do_curso = palavrasFrase[2];
                     nome_do_curso = palavrasFrase[3];
                     verificaLinha = false;
-                    dic.Remove(c - 1);
+                    dic.Remove(c - 1);      //Caso seja confirmado que a pessoa é aluno, o objeto pessoa sera apagado e um aluno sera criado
                     c--;
                     dicAlunos.Add(i, new Aluno(nome, telefone, cidade, RG, CPF, matricula, codigo_do_curso, nome_do_curso));
                     i++;
