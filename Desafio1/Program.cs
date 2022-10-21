@@ -4,22 +4,23 @@
     {
         static void Main(string[] args)
         {
-            List<Pessoa> lista = new List<Pessoa>();
-            List<Aluno> listaAlunos = new List<Aluno>();
+            Dictionary<int, Pessoa> lista = new Dictionary<int, Pessoa>();
+            Dictionary<int, Aluno> listaAlunos = new Dictionary<int, Aluno>();
             StreamWriter sw;
             StreamReader sr;
-            Util2 util = new Util2();
+            Util util = new Util();
             string nomeArquivo = @"C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Arquivos\Desafio_1.txt";
-            util.PpopularLista(lista, listaAlunos, nomeArquivo);
+            util.popularLista(lista, listaAlunos, nomeArquivo);
 
 
             Console.WriteLine("Foram criados " + listaAlunos.Count + " objetos aluno e " + lista.Count + " objetos pessoa");
             Console.WriteLine("-----------------------------------------------------");
-            foreach (Aluno aluno in listaAlunos)
+            foreach (var item in listaAlunos)
             {
-                Console.WriteLine(" Nome:" + aluno.Nome + " Curso: " + aluno.NomeDoCurso);
+                Console.WriteLine(" Nome:" + item.Value.Nome + " Curso: " + item.Value.NomeDoCurso);
                 Console.WriteLine("-----------------------------------------------------");
             }
+
         }
     }
 }
