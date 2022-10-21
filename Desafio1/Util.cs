@@ -16,7 +16,7 @@ namespace Desafio1
 
         public void popularLista(Dictionary<int, Pessoa> lista, Dictionary<int, Aluno> listaAlunos, string nomeArquivo)
         {
-            string linha = "", linha2 = "";
+            string linha = "";
             string nome = "", telefone = "", cidade = "", RG = "", CPF = "";
             string matricula, codigo_do_curso, nome_do_curso;
             string[] palavrasFrase;

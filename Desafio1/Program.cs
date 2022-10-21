@@ -6,8 +6,6 @@
         {
             Dictionary<int, Pessoa> lista = new Dictionary<int, Pessoa>();
             Dictionary<int, Aluno> listaAlunos = new Dictionary<int, Aluno>();
-            StreamWriter sw;
-            StreamReader sr;
             Util util = new Util();
             string nomeArquivo = @"C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Arquivos\Desafio_1.txt";
             util.popularLista(lista, listaAlunos, nomeArquivo);
