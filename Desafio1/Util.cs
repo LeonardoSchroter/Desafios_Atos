@@ -61,6 +61,7 @@ namespace Desafio1
                 }
 
             }
+            sr.Close();
 
 
 
