@@ -167,6 +167,7 @@ namespace controleDeProdutos_winsForm
 
                         doc.Add(paragrafo);
                         doc.Add(paragrafo2);
+                        doc.Add(paragrafo3);
 
 
                         doc.Close();
