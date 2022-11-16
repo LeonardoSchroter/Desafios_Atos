@@ -18,6 +18,7 @@
                 Console.WriteLine(" Nome:" + item.Value.Nome + " Curso: " + item.Value.NomeDoCurso);
                 Console.WriteLine("-----------------------------------------------------");
             }
+           
 
         }
     }
