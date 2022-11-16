@@ -74,6 +74,8 @@ namespace controleDeProdutos_winsForm
                 if (c.gravar())
                 {
                     MessageBox.Show("Cliente salvo com sucesso");
+                    textBox_cpf.Clear();
+                    textBox_nome.Clear();
                 }
                 else
                 {
@@ -125,6 +127,16 @@ namespace controleDeProdutos_winsForm
                 }
 
             }
+        }
+
+        private void button_filtrar_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from clientes " +
+                "where nome = '" + textBox_filtrarCliente.Text + "'");
+            dataGridView1.DataSource = dt;
+            textBox_filtrarCliente.Clear();
         }
     }
 }

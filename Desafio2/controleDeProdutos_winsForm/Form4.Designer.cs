@@ -48,6 +48,15 @@
             this.button_deletar = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
+            this.button_filtrarProduto = new System.Windows.Forms.Button();
+            this.textBox_filtrarProduto = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox_filtrarCliente = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button_filtrarCliente = new System.Windows.Forms.Button();
+            this.button_filtrarNota = new System.Windows.Forms.Button();
+            this.textBox_FiltrarNota = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -186,7 +195,7 @@
             // 
             // button_consultar
             // 
-            this.button_consultar.Location = new System.Drawing.Point(290, 306);
+            this.button_consultar.Location = new System.Drawing.Point(820, 333);
             this.button_consultar.Name = "button_consultar";
             this.button_consultar.Size = new System.Drawing.Size(84, 47);
             this.button_consultar.TabIndex = 31;
@@ -241,11 +250,107 @@
             this.label7.TabIndex = 36;
             this.label7.Text = "Notas";
             // 
+            // button_filtrarProduto
+            // 
+            this.button_filtrarProduto.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button_filtrarProduto.Location = new System.Drawing.Point(272, 153);
+            this.button_filtrarProduto.Name = "button_filtrarProduto";
+            this.button_filtrarProduto.Size = new System.Drawing.Size(94, 28);
+            this.button_filtrarProduto.TabIndex = 39;
+            this.button_filtrarProduto.Text = "Filtrar";
+            this.button_filtrarProduto.UseVisualStyleBackColor = true;
+            this.button_filtrarProduto.Click += new System.EventHandler(this.button_filtrarProduto_Click);
+            // 
+            // textBox_filtrarProduto
+            // 
+            this.textBox_filtrarProduto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox_filtrarProduto.Location = new System.Drawing.Point(256, 121);
+            this.textBox_filtrarProduto.Name = "textBox_filtrarProduto";
+            this.textBox_filtrarProduto.Size = new System.Drawing.Size(132, 23);
+            this.textBox_filtrarProduto.TabIndex = 38;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.Location = new System.Drawing.Point(234, 103);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(178, 15);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "Nome do produto para pesquisa";
+            // 
+            // textBox_filtrarCliente
+            // 
+            this.textBox_filtrarCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox_filtrarCliente.Location = new System.Drawing.Point(256, 347);
+            this.textBox_filtrarCliente.Name = "textBox_filtrarCliente";
+            this.textBox_filtrarCliente.Size = new System.Drawing.Size(132, 23);
+            this.textBox_filtrarCliente.TabIndex = 41;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(234, 319);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(170, 15);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Nome do cliente para pesquisa";
+            // 
+            // button_filtrarCliente
+            // 
+            this.button_filtrarCliente.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button_filtrarCliente.Location = new System.Drawing.Point(276, 385);
+            this.button_filtrarCliente.Name = "button_filtrarCliente";
+            this.button_filtrarCliente.Size = new System.Drawing.Size(94, 28);
+            this.button_filtrarCliente.TabIndex = 42;
+            this.button_filtrarCliente.Text = "Filtrar";
+            this.button_filtrarCliente.UseVisualStyleBackColor = true;
+            this.button_filtrarCliente.Click += new System.EventHandler(this.button_filtrarCliente_Click);
+            // 
+            // button_filtrarNota
+            // 
+            this.button_filtrarNota.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button_filtrarNota.Location = new System.Drawing.Point(272, 570);
+            this.button_filtrarNota.Name = "button_filtrarNota";
+            this.button_filtrarNota.Size = new System.Drawing.Size(94, 28);
+            this.button_filtrarNota.TabIndex = 45;
+            this.button_filtrarNota.Text = "Filtrar";
+            this.button_filtrarNota.UseVisualStyleBackColor = true;
+            this.button_filtrarNota.Click += new System.EventHandler(this.button_filtrarNota_Click);
+            // 
+            // textBox_FiltrarNota
+            // 
+            this.textBox_FiltrarNota.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox_FiltrarNota.Location = new System.Drawing.Point(256, 541);
+            this.textBox_FiltrarNota.Name = "textBox_FiltrarNota";
+            this.textBox_FiltrarNota.Size = new System.Drawing.Size(132, 23);
+            this.textBox_FiltrarNota.TabIndex = 44;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label10.Location = new System.Drawing.Point(256, 507);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(136, 15);
+            this.label10.TabIndex = 43;
+            this.label10.Text = "ID da nota para pesquisa";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 647);
+            this.ClientSize = new System.Drawing.Size(916, 653);
+            this.Controls.Add(this.button_filtrarNota);
+            this.Controls.Add(this.textBox_FiltrarNota);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.button_filtrarCliente);
+            this.Controls.Add(this.textBox_filtrarCliente);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button_filtrarProduto);
+            this.Controls.Add(this.textBox_filtrarProduto);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.textBox_deletar);
@@ -298,5 +403,14 @@
         private Button button_deletar;
         private DataGridView dataGridView3;
         private Label label7;
+        private Button button_filtrarProduto;
+        private TextBox textBox_filtrarProduto;
+        private Label label9;
+        private TextBox textBox_filtrarCliente;
+        private Label label8;
+        private Button button_filtrarCliente;
+        private Button button_filtrarNota;
+        private TextBox textBox_FiltrarNota;
+        private Label label10;
     }
 }

@@ -112,11 +112,32 @@ namespace controleDeProdutos_winsForm
                 n.quantidade = int.Parse(textBox_quantidade.Text);
                 if (n.gravar())
                 {
+                    textBox_idDocliente.Clear();
+                    textBox_idDoProduto.Clear();
+                    textBox_quantidade.Clear();
                     MessageBox.Show("Nota salva com sucesso");
                     MessageBoxButtons buttons = MessageBoxButtons.YesNo;
                     DialogResult result = MessageBox.Show("Você quer gerar um PDF da nota?", "Gerar nota", buttons);
                     if (result == DialogResult.Yes)
                     {
+                        Banco bd = new Banco();
+                        string sql = "select nome from clientes where idClientes = " + n.idCliente ;
+                        DataTable dt = new DataTable();
+                        dt = bd.executaConsulta(sql);
+                        string nome = dt.Rows[0]["nome"].ToString();
+                        sql = "select nome from produtos where idProdutos = " + n.idProduto ;
+                        dt.Clear();
+                        dt = bd.executaConsulta(sql);
+                        string nomeProduto = dt.Rows[0]["nome"].ToString();
+                        sql = "select preco from produtos where idProdutos = " + n.idProduto;
+                        dt.Clear();
+                        dt = bd.executaConsulta(sql);
+                        string vt = dt.Rows[0]["preco"].ToString();
+                        float precoTotal = float.Parse(vt) * n.quantidade;
+
+
+
+
                         Document doc = new Document(PageSize.A4);
                         doc.SetMargins(40, 40, 40, 80);
                         doc.AddCreationDate();
@@ -130,16 +151,24 @@ namespace controleDeProdutos_winsForm
                         Font fonte = FontFactory.GetFont(BaseFont.TIMES_ROMAN, 14);
                         Paragraph paragrafo = new Paragraph();
                         paragrafo.Font = fonte;
-                       
+                        DateTime agora = DateTime.Now;
                         
+                        DateOnly hora = new DateOnly();
                         paragrafo.Alignment = Element.ALIGN_JUSTIFIED;
-                        paragrafo.Add("O cliente de id " + n.idCliente + " comprou " + n.quantidade + " unidades do produto de id " + n.idProduto);
-                       
-                       
-                        
+                        paragrafo.Add("O cliente  " + nome + " comprou " + n.quantidade + " unidades do produto  " + nomeProduto + ". Preço total: R$"+precoTotal);
+                        Paragraph paragrafo2 = new Paragraph();
+                        paragrafo2.Font = fonte;
+                        paragrafo2.Add(". Data: "+agora.Day+"/"+ agora.Month+"/"+agora.Year);
+                        Paragraph paragrafo3 = new Paragraph();
+                        paragrafo3.Font = fonte;
+                        paragrafo3.Add("Código:" + agora.Minute + agora.Year + agora.DayOfYear + agora.Month);
+
+
+
                         doc.Add(paragrafo);
-                        
-                        
+                        doc.Add(paragrafo2);
+
+
                         doc.Close();
 
                     }
@@ -184,6 +213,36 @@ namespace controleDeProdutos_winsForm
                 }
 
             }
+        }
+
+        private void button_filtrarProduto_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from produtos " +
+                "where nome = '" + textBox_filtrarProduto.Text + "'");
+            dataGridView2.DataSource = dt;
+            textBox_filtrarProduto.Clear();
+        }
+
+        private void button_filtrarCliente_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from clientes " +
+                "where nome = '" + textBox_filtrarCliente.Text + "'");
+            dataGridView1.DataSource = dt;
+            textBox_filtrarCliente.Clear();
+        }
+
+        private void button_filtrarNota_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from nota " +
+                "where idNota = '" + textBox_FiltrarNota.Text + "'");
+            dataGridView3.DataSource = dt;
+            textBox_FiltrarNota.Clear();
         }
     }
 }

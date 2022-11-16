@@ -39,6 +39,9 @@
             this.button_deletar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_deletar = new System.Windows.Forms.TextBox();
+            this.button_filtrar = new System.Windows.Forms.Button();
+            this.textBox_filtrar = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,7 +99,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(255, 153);
+            this.dataGridView1.Location = new System.Drawing.Point(255, 174);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(263, 157);
@@ -105,9 +108,9 @@
             // button_consultarFornecedores
             // 
             this.button_consultarFornecedores.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button_consultarFornecedores.Location = new System.Drawing.Point(346, 106);
+            this.button_consultarFornecedores.Location = new System.Drawing.Point(411, 128);
             this.button_consultarFornecedores.Name = "button_consultarFornecedores";
-            this.button_consultarFornecedores.Size = new System.Drawing.Size(78, 31);
+            this.button_consultarFornecedores.Size = new System.Drawing.Size(82, 31);
             this.button_consultarFornecedores.TabIndex = 6;
             this.button_consultarFornecedores.Text = "Consultar";
             this.button_consultarFornecedores.UseVisualStyleBackColor = true;
@@ -153,11 +156,43 @@
             this.textBox_deletar.Size = new System.Drawing.Size(74, 23);
             this.textBox_deletar.TabIndex = 10;
             // 
+            // button_filtrar
+            // 
+            this.button_filtrar.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button_filtrar.Location = new System.Drawing.Point(311, 128);
+            this.button_filtrar.Name = "button_filtrar";
+            this.button_filtrar.Size = new System.Drawing.Size(94, 31);
+            this.button_filtrar.TabIndex = 11;
+            this.button_filtrar.Text = "Filtrar";
+            this.button_filtrar.UseVisualStyleBackColor = true;
+            this.button_filtrar.Click += new System.EventHandler(this.button_filtrar_Click);
+            // 
+            // textBox_filtrar
+            // 
+            this.textBox_filtrar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox_filtrar.Location = new System.Drawing.Point(333, 83);
+            this.textBox_filtrar.Name = "textBox_filtrar";
+            this.textBox_filtrar.Size = new System.Drawing.Size(132, 23);
+            this.textBox_filtrar.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(322, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(193, 15);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Nome do fornecedor para pesquisa";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 361);
+            this.Controls.Add(this.textBox_filtrar);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button_filtrar);
             this.Controls.Add(this.textBox_deletar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button_deletar);
@@ -192,5 +227,8 @@
         private Button button_deletar;
         private Label label2;
         private TextBox textBox_deletar;
+        private Button button_filtrar;
+        private TextBox textBox_filtrar;
+        private Label label3;
     }
 }

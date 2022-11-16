@@ -128,5 +128,15 @@ namespace controleDeProdutos_winsForm
 
             }
         }
+
+        private void button_filtrar_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from fornecedores " +
+                "where nome = '" + textBox_filtrar.Text + "'");
+            dataGridView1.DataSource = dt;
+            textBox_filtrar.Clear();
+        }
     }
 }

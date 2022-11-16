@@ -63,6 +63,10 @@ namespace controleDeProdutos_winsForm
                 if (p.gravar())
                 {
                     MessageBox.Show("Produto salvo com sucesso");
+                    textBox_nomeProduto.Clear();
+                    textBox_preco.Clear();
+                    textBox_tipo.Clear();
+                    textBox_idFornecedor.Clear();
                 }
                 else
                 {
@@ -133,6 +137,26 @@ namespace controleDeProdutos_winsForm
                     throw;
                 }
             }
+        }
+
+        private void button_filtrar_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from fornecedores " +
+                "where nome = '" + textBox_filtrarFornecedor.Text + "'");
+            dataGridView1.DataSource = dt;
+            textBox_filtrarFornecedor.Clear();
+        }
+
+        private void button_produto_Click(object sender, EventArgs e)
+        {
+            Banco bd = new Banco();
+            DataTable dt = new DataTable();
+            dt = bd.executaConsulta("select * from produtos " +
+                "where nome = '" + textBox_filtrarProduto.Text + "'");
+            dataGridView2.DataSource = dt;
+            textBox_filtrarProduto.Clear();
         }
     }
 }

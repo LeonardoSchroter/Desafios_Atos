@@ -41,6 +41,9 @@
             this.textBox_deletar = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button_deletar = new System.Windows.Forms.Button();
+            this.textBox_filtrarCliente = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button_filtrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,7 +116,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(265, 136);
+            this.dataGridView1.Location = new System.Drawing.Point(277, 224);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(311, 214);
@@ -121,7 +124,7 @@
             // 
             // button_consulta
             // 
-            this.button_consulta.Location = new System.Drawing.Point(348, 83);
+            this.button_consulta.Location = new System.Drawing.Point(336, 171);
             this.button_consulta.Name = "button_consulta";
             this.button_consulta.Size = new System.Drawing.Size(90, 40);
             this.button_consulta.TabIndex = 10;
@@ -169,11 +172,43 @@
             this.button_deletar.UseVisualStyleBackColor = true;
             this.button_deletar.Click += new System.EventHandler(this.button_deletar_Click);
             // 
+            // textBox_filtrarCliente
+            // 
+            this.textBox_filtrarCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox_filtrarCliente.Location = new System.Drawing.Point(374, 120);
+            this.textBox_filtrarCliente.Name = "textBox_filtrarCliente";
+            this.textBox_filtrarCliente.Size = new System.Drawing.Size(132, 23);
+            this.textBox_filtrarCliente.TabIndex = 25;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(352, 102);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(170, 15);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Nome do cliente para pesquisa";
+            // 
+            // button_filtrar
+            // 
+            this.button_filtrar.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button_filtrar.Location = new System.Drawing.Point(449, 171);
+            this.button_filtrar.Name = "button_filtrar";
+            this.button_filtrar.Size = new System.Drawing.Size(94, 40);
+            this.button_filtrar.TabIndex = 23;
+            this.button_filtrar.Text = "Filtrar";
+            this.button_filtrar.UseVisualStyleBackColor = true;
+            this.button_filtrar.Click += new System.EventHandler(this.button_filtrar_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 387);
+            this.ClientSize = new System.Drawing.Size(600, 450);
+            this.Controls.Add(this.textBox_filtrarCliente);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button_filtrar);
             this.Controls.Add(this.textBox_deletar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button_deletar);
@@ -210,5 +245,8 @@
         private TextBox textBox_deletar;
         private Label label3;
         private Button button_deletar;
+        private TextBox textBox_filtrarCliente;
+        private Label label8;
+        private Button button_filtrar;
     }
 }
