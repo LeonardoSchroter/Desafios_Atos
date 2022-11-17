@@ -105,27 +105,31 @@ namespace controleDeProdutos_winsForm
             }
             else
             {
-
-
-                int idFornecedor = int.Parse(textBox_deletar.Text);
-                string sqlTexto = "DELETE FROM fornecedores WHERE idFornecedor = @idFornecedor";
-                Banco b = new Banco();
-                SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
-                
-                comando.Parameters.AddWithValue("@idFornecedor", idFornecedor);
-                try
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show("Você quer mesmo deletar este fornecedor?", "Deletando fornecedor", buttons);
+                if (result == DialogResult.Yes)
                 {
-                    //executar sentença SQL
-                    comando.ExecuteNonQuery();
-                    MessageBox.Show("Deletado com sucesso");
-                    textBox_deletar.Clear();
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Problemas para deletar");
-                    throw;
-                }
 
+
+                    int idFornecedor = int.Parse(textBox_deletar.Text);
+                    string sqlTexto = "DELETE FROM fornecedores WHERE idFornecedor = @idFornecedor";
+                    Banco b = new Banco();
+                    SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
+
+                    comando.Parameters.AddWithValue("@idFornecedor", idFornecedor);
+                    try
+                    {
+                        //executar sentença SQL
+                        comando.ExecuteNonQuery();
+                        MessageBox.Show("Deletado com sucesso");
+                        textBox_deletar.Clear();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Problemas para deletar");
+                        throw;
+                    }
+                }
             }
         }
 

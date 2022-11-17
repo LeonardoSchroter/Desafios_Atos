@@ -101,7 +101,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(417, 273);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(371, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(371, 154);
             this.dataGridView1.TabIndex = 20;
             // 
             // dataGridView2

@@ -43,6 +43,9 @@ create table nota
 	idNota int primary key identity,
 	fk_idClientes int not null,
 	fk_idProdutos int not null,
+	--quantidade
+	--valor
+	--codigo
 	
 	constraint fk_idClientes foreign key(fk_idClientes) references clientes(idClientes),
 	constraint fk_idProdutos foreign key(fk_idProdutos) references produtos(idProdutos),
@@ -51,6 +54,10 @@ create table nota
 
 alter table nota drop column valor;
 alter table nota add quantidade int;
+alter table nota add valor float;
+alter table nota add codigo float;
+alter table nota alter column codigo varchar(50);
+
 
 select * from nota;
 

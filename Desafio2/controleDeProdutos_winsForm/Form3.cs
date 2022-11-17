@@ -30,7 +30,7 @@ namespace controleDeProdutos_winsForm
 
         private void novoForm(object? obj)
         {
-           Application.Run(new Form1());
+            Application.Run(new Form1());
         }
 
         private void button_cadastrarProduto_Click(object sender, EventArgs e)
@@ -62,7 +62,7 @@ namespace controleDeProdutos_winsForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrWhiteSpace(textBox_cpf.Text) || string.IsNullOrWhiteSpace(textBox_nome.Text))
+            if (string.IsNullOrWhiteSpace(textBox_cpf.Text) || string.IsNullOrWhiteSpace(textBox_nome.Text))
             {
                 MessageBox.Show("Preencha os campos para poder salvar os dados");
             }
@@ -105,27 +105,30 @@ namespace controleDeProdutos_winsForm
             }
             else
             {
-
-
-                int idCliente = int.Parse(textBox_deletar.Text);
-                string sqlTexto = "DELETE FROM clientes WHERE idClientes = @idCliente";
-                Banco b = new Banco();
-                SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
-                
-                comando.Parameters.AddWithValue("@idCliente", idCliente);
-                try
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show("Você quer mesmo deletar este cliente?", "Deletando cliente", buttons);
+                if (result == DialogResult.Yes)
                 {
-                    //executar sentença SQL
-                    comando.ExecuteNonQuery();
-                    MessageBox.Show("Deletado com sucesso");
-                    textBox_deletar.Clear();
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Problemas para deletar");
-                    throw;
-                }
 
+                    int idCliente = int.Parse(textBox_deletar.Text);
+                    string sqlTexto = "DELETE FROM clientes WHERE idClientes = @idCliente";
+                    Banco b = new Banco();
+                    SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
+
+                    comando.Parameters.AddWithValue("@idCliente", idCliente);
+                    try
+                    {
+                        //executar sentença SQL
+                        comando.ExecuteNonQuery();
+                        MessageBox.Show("Deletado com sucesso");
+                        textBox_deletar.Clear();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Problemas para deletar");
+                        throw;
+                    }
+                }
             }
         }
 

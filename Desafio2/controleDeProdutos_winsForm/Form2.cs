@@ -118,23 +118,28 @@ namespace controleDeProdutos_winsForm
             }
             else
             {
-                int idProduto = int.Parse(textBox_deletar.Text);
-                try
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show("Você quer mesmo deletar este produto?", "Deletando produto", buttons);
+                if (result == DialogResult.Yes)
                 {
-                    string sqlTexto = "DELETE FROM produtos WHERE idProdutos = @idProduto";
-                    Banco b = new Banco();
-                    SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
-                    comando.Parameters.AddWithValue("@idProduto", idProduto);
+                    int idProduto = int.Parse(textBox_deletar.Text);
+                    try
+                    {
+                        string sqlTexto = "DELETE FROM produtos WHERE idProdutos = @idProduto";
+                        Banco b = new Banco();
+                        SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
+                        comando.Parameters.AddWithValue("@idProduto", idProduto);
 
-                    //executar sentença SQL
-                    comando.ExecuteNonQuery();
-                    MessageBox.Show("Deletado com sucesso");
-                    textBox_deletar.Clear();
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Problemas para deletar");
-                    throw;
+                        //executar sentença SQL
+                        comando.ExecuteNonQuery();
+                        MessageBox.Show("Deletado com sucesso");
+                        textBox_deletar.Clear();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Problemas para deletar");
+                        throw;
+                    }
                 }
             }
         }

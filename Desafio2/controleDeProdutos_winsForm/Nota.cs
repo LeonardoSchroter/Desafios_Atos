@@ -15,6 +15,7 @@ namespace controleDeProdutos_winsForm
         public int idProduto { get; set; }
         public float valor { get; set; }
         public int quantidade { get; set; }
+        public string codigo { get; set; }
 
         public bool gravar()
         {
@@ -28,15 +29,19 @@ namespace controleDeProdutos_winsForm
             cmd.Connection = cn;
             cmd.Transaction = transacao;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into nota values (@idCliente,@idProduto,@quantidade);";
+            cmd.CommandText = "insert into nota values (@idCliente,@idProduto,@quantidade,@valor,@codigo);";
             cmd.Parameters.Add("@idCliente", SqlDbType.Int);
             cmd.Parameters.Add("@idProduto", SqlDbType.Int);
             cmd.Parameters.Add("@quantidade", SqlDbType.Int);
+            cmd.Parameters.Add("@valor", SqlDbType.Float);
+            cmd.Parameters.Add("@codigo", SqlDbType.VarChar);
 
             cmd.Parameters[0].Value = idCliente;
             cmd.Parameters[1].Value = idProduto;
             cmd.Parameters[2].Value = quantidade;
-           
+            cmd.Parameters[3].Value = valor;
+            cmd.Parameters[4].Value = codigo;
+
 
 
             try

@@ -16,6 +16,7 @@ using iTextSharp;//E A BIBLIOTECA ITEXTSHARP E SUAS EXTENÇÕES
 using iTextSharp.text;//ESTENSAO 1 (TEXT)
 using iTextSharp.text.pdf;//ESTENSAO 2 (PDF)
 using Font = iTextSharp.text.Font;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace controleDeProdutos_winsForm
 {
@@ -105,13 +106,33 @@ namespace controleDeProdutos_winsForm
             }
             else
             {
-                Nota n = new Nota();
 
+                Nota n = new Nota();
+                DateTime agora = DateTime.Now;
+
+                n.codigo = (agora.Second.ToString() + agora.Hour.ToString() + agora.Minute.ToString() + agora.Year.ToString() + agora.DayOfYear.ToString() + agora.Month.ToString());
                 n.idProduto = int.Parse(textBox_idDoProduto.Text);
                 n.idCliente = int.Parse(textBox_idDocliente.Text);
                 n.quantidade = int.Parse(textBox_quantidade.Text);
+                Banco bd = new Banco();
+                string sql = "select nome from clientes where idClientes = " + n.idCliente;
+                DataTable dt = new DataTable();
+                dt = bd.executaConsulta(sql);
+                string nome = dt.Rows[0]["nome"].ToString();
+                sql = "select nome from produtos where idProdutos = " + n.idProduto;
+                dt.Clear();
+                dt = bd.executaConsulta(sql);
+                string nomeProduto = dt.Rows[0]["nome"].ToString();
+                sql = "select preco from produtos where idProdutos = " + n.idProduto;
+                dt.Clear();
+                dt = bd.executaConsulta(sql);
+                string vt = dt.Rows[0]["preco"].ToString();
+                float precoTotal = float.Parse(vt) * n.quantidade;
+                n.valor = precoTotal;
                 if (n.gravar())
                 {
+
+
                     textBox_idDocliente.Clear();
                     textBox_idDoProduto.Clear();
                     textBox_quantidade.Clear();
@@ -120,48 +141,32 @@ namespace controleDeProdutos_winsForm
                     DialogResult result = MessageBox.Show("Você quer gerar um PDF da nota?", "Gerar nota", buttons);
                     if (result == DialogResult.Yes)
                     {
-                        Banco bd = new Banco();
-                        string sql = "select nome from clientes where idClientes = " + n.idCliente ;
-                        DataTable dt = new DataTable();
-                        dt = bd.executaConsulta(sql);
-                        string nome = dt.Rows[0]["nome"].ToString();
-                        sql = "select nome from produtos where idProdutos = " + n.idProduto ;
-                        dt.Clear();
-                        dt = bd.executaConsulta(sql);
-                        string nomeProduto = dt.Rows[0]["nome"].ToString();
-                        sql = "select preco from produtos where idProdutos = " + n.idProduto;
-                        dt.Clear();
-                        dt = bd.executaConsulta(sql);
-                        string vt = dt.Rows[0]["preco"].ToString();
-                        float precoTotal = float.Parse(vt) * n.quantidade;
-
-
-
 
                         Document doc = new Document(PageSize.A4);
                         doc.SetMargins(40, 40, 40, 80);
                         doc.AddCreationDate();
-                        string caminho = @"C:\Users\leosc\Downloads" + "NOTAFISCAL.pdf";
-                        PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2" + "\\NOTAFISCAL.PDF", FileMode.Create));
+
+                        PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2" + "\\NOTAFISCAL.PDF", FileMode.Create));
                         doc.Open();
 
-                       
+
                         string dados = "";
 
                         Font fonte = FontFactory.GetFont(BaseFont.TIMES_ROMAN, 14);
                         Paragraph paragrafo = new Paragraph();
                         paragrafo.Font = fonte;
-                        DateTime agora = DateTime.Now;
-                        
+
+
                         DateOnly hora = new DateOnly();
                         paragrafo.Alignment = Element.ALIGN_JUSTIFIED;
-                        paragrafo.Add("O cliente  " + nome + " comprou " + n.quantidade + " unidades do produto  " + nomeProduto + ". Preço total: R$"+precoTotal);
+                        paragrafo.Add("O cliente  " + nome + " comprou " + n.quantidade + " unidades do produto  " + nomeProduto + ". Preço total: R$" + precoTotal);
                         Paragraph paragrafo2 = new Paragraph();
                         paragrafo2.Font = fonte;
-                        paragrafo2.Add(". Data: "+agora.Day+"/"+ agora.Month+"/"+agora.Year);
+                        paragrafo2.Add("Data: " + agora.Day + "/" + agora.Month + "/" + agora.Year);
                         Paragraph paragrafo3 = new Paragraph();
                         paragrafo3.Font = fonte;
-                        paragrafo3.Add("Código:" + agora.Minute + agora.Year + agora.DayOfYear + agora.Month);
+                        paragrafo3.Add("Código:" + n.codigo);
+
 
 
 
@@ -193,26 +198,29 @@ namespace controleDeProdutos_winsForm
             else
             {
 
-
-                int idNota = int.Parse(textBox_deletar.Text);
-                string sqlTexto = "DELETE FROM nota WHERE idNota = @idNota";
-                Banco b = new Banco();
-                SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
-
-                comando.Parameters.AddWithValue("@idNota", idNota);
-                try
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show("Você quer mesmo deletar esta nota?", "Deletando nota", buttons);
+                if (result == DialogResult.Yes)
                 {
-                    //executar sentença SQL
-                    comando.ExecuteNonQuery();
-                    MessageBox.Show("Deletado com sucesso");
-                    textBox_deletar.Clear();
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Problemas para deletar");
-                    throw;
-                }
+                    int idNota = int.Parse(textBox_deletar.Text);
+                    string sqlTexto = "DELETE FROM nota WHERE idNota = @idNota";
+                    Banco b = new Banco();
+                    SqlCommand comando = new SqlCommand(sqlTexto, b.abrirConexao());
 
+                    comando.Parameters.AddWithValue("@idNota", idNota);
+                    try
+                    {
+                        //executar sentença SQL
+                        comando.ExecuteNonQuery();
+                        MessageBox.Show("Deletado com sucesso");
+                        textBox_deletar.Clear();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Problemas para deletar");
+                        throw;
+                    }
+                }
             }
         }
 
