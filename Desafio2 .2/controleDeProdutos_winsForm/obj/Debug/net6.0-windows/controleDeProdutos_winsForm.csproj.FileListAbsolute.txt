@@ -1,0 +1,136 @@
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.exe
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.deps.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.runtimeconfig.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.AssemblyReference.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form1.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form2.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.GenerateResource.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfoInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfo.cs
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CoreCompileInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\refint\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.genruntimeconfig.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\ref\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form3.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Properties.Resources.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CopyComplete
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form4.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Academia_DotNet_Atos\Desafios\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.exe
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.deps.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.runtimeconfig.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.AssemblyReference.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form1.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form2.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form3.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form4.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Properties.Resources.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.GenerateResource.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfoInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfo.cs
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CoreCompileInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CopyComplete
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\refint\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.genruntimeconfig.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\ref\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.exe
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.deps.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.runtimeconfig.json
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Castle.Core.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.AssemblyReference.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form1.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form2.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form3.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Form4.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.Properties.Resources.resources
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.GenerateResource.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfoInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.AssemblyInfo.cs
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CoreCompileInputs.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.csproj.CopyComplete
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\refint\controleDeProdutos_winsForm.dll
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.pdb
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\controleDeProdutos_winsForm.genruntimeconfig.cache
+C:\Users\leosc\OneDrive\Área de Trabalho\Desafios atos\Desafio2 .2\controleDeProdutos_winsForm\obj\Debug\net6.0-windows\ref\controleDeProdutos_winsForm.dll
