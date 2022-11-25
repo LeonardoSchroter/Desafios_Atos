@@ -71,12 +71,20 @@
             this.columnHeader12 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader13 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader14 = new System.Windows.Forms.ColumnHeader();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_CadastrarProduto
             // 
             this.button_CadastrarProduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button_CadastrarProduto.Location = new System.Drawing.Point(152, 13);
+            this.button_CadastrarProduto.Location = new System.Drawing.Point(147, 5);
             this.button_CadastrarProduto.Name = "button_CadastrarProduto";
             this.button_CadastrarProduto.Size = new System.Drawing.Size(108, 38);
             this.button_CadastrarProduto.TabIndex = 19;
@@ -87,7 +95,7 @@
             // button_cadastrarFornecedor
             // 
             this.button_cadastrarFornecedor.ForeColor = System.Drawing.Color.Red;
-            this.button_cadastrarFornecedor.Location = new System.Drawing.Point(6, 12);
+            this.button_cadastrarFornecedor.Location = new System.Drawing.Point(1, 4);
             this.button_cadastrarFornecedor.Name = "button_cadastrarFornecedor";
             this.button_cadastrarFornecedor.Size = new System.Drawing.Size(125, 39);
             this.button_cadastrarFornecedor.TabIndex = 18;
@@ -98,7 +106,7 @@
             // button_cadastrarCliente
             // 
             this.button_cadastrarCliente.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button_cadastrarCliente.Location = new System.Drawing.Point(276, 14);
+            this.button_cadastrarCliente.Location = new System.Drawing.Point(271, 6);
             this.button_cadastrarCliente.Name = "button_cadastrarCliente";
             this.button_cadastrarCliente.Size = new System.Drawing.Size(112, 39);
             this.button_cadastrarCliente.TabIndex = 17;
@@ -109,7 +117,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(584, 229);
+            this.label1.Location = new System.Drawing.Point(610, 221);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 15);
             this.label1.TabIndex = 22;
@@ -152,7 +160,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(584, 36);
+            this.label2.Location = new System.Drawing.Point(610, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 15);
             this.label2.TabIndex = 27;
@@ -227,7 +235,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(595, 451);
+            this.label7.Location = new System.Drawing.Point(621, 443);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(38, 15);
             this.label7.TabIndex = 36;
@@ -236,7 +244,7 @@
             // button_filtrarProduto
             // 
             this.button_filtrarProduto.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button_filtrarProduto.Location = new System.Drawing.Point(272, 153);
+            this.button_filtrarProduto.Location = new System.Drawing.Point(41, 105);
             this.button_filtrarProduto.Name = "button_filtrarProduto";
             this.button_filtrarProduto.Size = new System.Drawing.Size(94, 28);
             this.button_filtrarProduto.TabIndex = 39;
@@ -247,7 +255,7 @@
             // textBox_filtrarProduto
             // 
             this.textBox_filtrarProduto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_filtrarProduto.Location = new System.Drawing.Point(256, 121);
+            this.textBox_filtrarProduto.Location = new System.Drawing.Point(23, 76);
             this.textBox_filtrarProduto.Name = "textBox_filtrarProduto";
             this.textBox_filtrarProduto.Size = new System.Drawing.Size(132, 23);
             this.textBox_filtrarProduto.TabIndex = 38;
@@ -256,7 +264,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(234, 103);
+            this.label9.Location = new System.Drawing.Point(14, 58);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(156, 15);
             this.label9.TabIndex = 37;
@@ -265,7 +273,7 @@
             // textBox_filtrarCliente
             // 
             this.textBox_filtrarCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_filtrarCliente.Location = new System.Drawing.Point(256, 347);
+            this.textBox_filtrarCliente.Location = new System.Drawing.Point(14, 78);
             this.textBox_filtrarCliente.Name = "textBox_filtrarCliente";
             this.textBox_filtrarCliente.Size = new System.Drawing.Size(132, 23);
             this.textBox_filtrarCliente.TabIndex = 41;
@@ -274,7 +282,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(234, 319);
+            this.label8.Location = new System.Drawing.Point(3, 50);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(148, 15);
             this.label8.TabIndex = 40;
@@ -283,7 +291,7 @@
             // button_filtrarCliente
             // 
             this.button_filtrarCliente.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button_filtrarCliente.Location = new System.Drawing.Point(276, 385);
+            this.button_filtrarCliente.Location = new System.Drawing.Point(32, 111);
             this.button_filtrarCliente.Name = "button_filtrarCliente";
             this.button_filtrarCliente.Size = new System.Drawing.Size(94, 28);
             this.button_filtrarCliente.TabIndex = 42;
@@ -294,7 +302,7 @@
             // button_filtrarNota
             // 
             this.button_filtrarNota.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button_filtrarNota.Location = new System.Drawing.Point(272, 570);
+            this.button_filtrarNota.Location = new System.Drawing.Point(32, 107);
             this.button_filtrarNota.Name = "button_filtrarNota";
             this.button_filtrarNota.Size = new System.Drawing.Size(94, 28);
             this.button_filtrarNota.TabIndex = 45;
@@ -305,7 +313,7 @@
             // textBox_FiltrarNota
             // 
             this.textBox_FiltrarNota.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_FiltrarNota.Location = new System.Drawing.Point(256, 541);
+            this.textBox_FiltrarNota.Location = new System.Drawing.Point(14, 78);
             this.textBox_FiltrarNota.Name = "textBox_FiltrarNota";
             this.textBox_FiltrarNota.Size = new System.Drawing.Size(132, 23);
             this.textBox_FiltrarNota.TabIndex = 44;
@@ -314,7 +322,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(256, 507);
+            this.label10.Location = new System.Drawing.Point(15, 36);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(136, 15);
             this.label10.TabIndex = 43;
@@ -328,7 +336,7 @@
             this.columnHeader3});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(417, 247);
+            this.listView1.Location = new System.Drawing.Point(443, 239);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(371, 192);
             this.listView1.TabIndex = 46;
@@ -360,7 +368,7 @@
             this.columnHeader8});
             this.listView2.FullRowSelect = true;
             this.listView2.GridLines = true;
-            this.listView2.Location = new System.Drawing.Point(418, 54);
+            this.listView2.Location = new System.Drawing.Point(444, 46);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(370, 172);
             this.listView2.TabIndex = 47;
@@ -403,7 +411,7 @@
             this.columnHeader14});
             this.listView3.FullRowSelect = true;
             this.listView3.GridLines = true;
-            this.listView3.Location = new System.Drawing.Point(418, 469);
+            this.listView3.Location = new System.Drawing.Point(444, 461);
             this.listView3.Name = "listView3";
             this.listView3.Size = new System.Drawing.Size(370, 181);
             this.listView3.TabIndex = 48;
@@ -441,6 +449,55 @@
             this.columnHeader14.Text = "Codigo";
             this.columnHeader14.Width = 100;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Location = new System.Drawing.Point(6, 57);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(192, 229);
+            this.panel1.TabIndex = 49;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Location = new System.Drawing.Point(12, 385);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(225, 145);
+            this.panel2.TabIndex = 50;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.textBox_filtrarProduto);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.button_filtrarProduto);
+            this.panel3.Location = new System.Drawing.Point(260, 46);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(554, 172);
+            this.panel3.TabIndex = 51;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.textBox_filtrarCliente);
+            this.panel4.Controls.Add(this.button_filtrarCliente);
+            this.panel4.Location = new System.Drawing.Point(269, 239);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(545, 201);
+            this.panel4.TabIndex = 52;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.textBox_FiltrarNota);
+            this.panel5.Controls.Add(this.button_filtrarNota);
+            this.panel5.Location = new System.Drawing.Point(269, 461);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(545, 189);
+            this.panel5.TabIndex = 53;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -449,15 +506,6 @@
             this.Controls.Add(this.listView3);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
-            this.Controls.Add(this.button_filtrarNota);
-            this.Controls.Add(this.textBox_FiltrarNota);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.button_filtrarCliente);
-            this.Controls.Add(this.textBox_filtrarCliente);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.button_filtrarProduto);
-            this.Controls.Add(this.textBox_filtrarProduto);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox_deletar);
             this.Controls.Add(this.label6);
@@ -475,8 +523,19 @@
             this.Controls.Add(this.button_CadastrarProduto);
             this.Controls.Add(this.button_cadastrarFornecedor);
             this.Controls.Add(this.button_cadastrarCliente);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel5);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -527,5 +586,10 @@
         private ColumnHeader columnHeader12;
         private ColumnHeader columnHeader13;
         private ColumnHeader columnHeader14;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
+        private Panel panel4;
+        private Panel panel5;
     }
 }

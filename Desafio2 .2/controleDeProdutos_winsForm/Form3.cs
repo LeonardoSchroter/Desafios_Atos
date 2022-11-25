@@ -94,7 +94,7 @@ namespace controleDeProdutos_winsForm
                     contexto.SaveChanges();
                     textBox_cpf.Clear();
                     textBox_nome.Clear();
-                    MessageBox.Show("Cliente deletado com sucesso");
+                    MessageBox.Show("Cliente salvo com sucesso");
                 }
                 catch (Exception)
                 {

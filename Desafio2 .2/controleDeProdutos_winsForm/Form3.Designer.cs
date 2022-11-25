@@ -47,6 +47,9 @@
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button_cadastrarFornecedor
@@ -224,6 +227,30 @@
             this.columnHeader3.Text = "CPF";
             this.columnHeader3.Width = 100;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Location = new System.Drawing.Point(8, 81);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(199, 149);
+            this.panel1.TabIndex = 51;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Location = new System.Drawing.Point(8, 256);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(199, 107);
+            this.panel2.TabIndex = 52;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Location = new System.Drawing.Point(245, 81);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(332, 372);
+            this.panel3.TabIndex = 53;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -245,6 +272,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_cadastrarFornecedor);
             this.Controls.Add(this.button_cadastrarProduto);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.Name = "Form3";
             this.Text = "Cadastro de cliente";
             this.ResumeLayout(false);
@@ -273,5 +303,8 @@
         private ColumnHeader columnHeader1;
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader3;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }

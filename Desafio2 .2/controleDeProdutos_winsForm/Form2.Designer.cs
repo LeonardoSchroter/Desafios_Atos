@@ -61,6 +61,10 @@
             this.listView2 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button_cadastrarCliente
@@ -353,6 +357,38 @@
             this.columnHeader2.Text = "Nome";
             this.columnHeader2.Width = 100;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Location = new System.Drawing.Point(0, 48);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(164, 293);
+            this.panel1.TabIndex = 52;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Location = new System.Drawing.Point(12, 356);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(207, 111);
+            this.panel2.TabIndex = 53;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Location = new System.Drawing.Point(230, 60);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(483, 151);
+            this.panel3.TabIndex = 54;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Location = new System.Drawing.Point(249, 278);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(464, 152);
+            this.panel4.TabIndex = 55;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -384,6 +420,10 @@
             this.Controls.Add(this.textBox_nomeProduto);
             this.Controls.Add(this.button_cadastrarFornecedor);
             this.Controls.Add(this.button_cadastrarCliente);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
             this.Name = "Form2";
             this.Text = "Cadastro de produto";
             this.ResumeLayout(false);
@@ -426,5 +466,9 @@
         private ListView listView2;
         private ColumnHeader columnHeader1;
         private ColumnHeader columnHeader2;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
+        private Panel panel4;
     }
 }

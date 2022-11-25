@@ -44,6 +44,9 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button_cadastrarProduto
@@ -201,6 +204,30 @@
             this.columnHeader2.Text = "Nome";
             this.columnHeader2.Width = 100;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Location = new System.Drawing.Point(2, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(264, 84);
+            this.panel1.TabIndex = 50;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Location = new System.Drawing.Point(2, 166);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(235, 102);
+            this.panel2.TabIndex = 51;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Location = new System.Drawing.Point(272, 49);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(246, 311);
+            this.panel3.TabIndex = 52;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -220,6 +247,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_cadastrarCliente);
             this.Controls.Add(this.button_cadastrarProduto);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.Name = "Form1";
             this.Text = "Cadastro de fornecedor";
@@ -247,5 +277,8 @@
         private ListView listView1;
         private ColumnHeader columnHeader1;
         private ColumnHeader columnHeader2;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }
