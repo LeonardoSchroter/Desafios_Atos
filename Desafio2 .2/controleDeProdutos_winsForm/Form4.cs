@@ -304,7 +304,7 @@ namespace controleDeProdutos_winsForm
             {
                 ControleProdutosDb2Context contexto = new ControleProdutosDb2Context();
 
-                Notum p = contexto.Nota.FirstOrDefault(noNome => noNome.IdNota == int.Parse(textBox_filtrarCliente.Text));
+                Notum p = contexto.Nota.FirstOrDefault(noNome => noNome.IdNota == int.Parse(textBox_FiltrarNota.Text));
                 listView3.Items.Clear();
                 listView3.Items.Add(p.IdNota.ToString());
                 listView3.Items[0].SubItems.Add(p.FkIdClientes.ToString());
