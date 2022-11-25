@@ -107,7 +107,7 @@ namespace controleDeProdutos_winsForm
                     listView1.Items.Add(p.IdProdutos.ToString());
                     listView1.Items[i].SubItems.Add(p.Preco.ToString());
                     listView1.Items[i].SubItems.Add(p.Tipo.ToString());
-                    listView1.Items[i].SubItems.Add(p.FkIdFornecedorNavigation.Nome.ToString());
+                    listView1.Items[i].SubItems.Add(p.FkIdFornecedorNavigation.IdFornecedor.ToString());
                     listView1.Items[i].SubItems.Add(p.Nome.ToString());
                     i++;
 
